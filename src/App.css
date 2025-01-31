@@ -1,0 +1,136 @@
+.footer {
+  background-color: blanchedalmond; /* Light background color */
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content,
+.footer-links {
+  margin-bottom: 15px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: blanchedalmond; /* Bootstrap primary color */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.footer-bottom {
+  font-size: 14px;
+  color: blanchedalmond; /* Secondary color */
+}
+
+/* body{
+ 
+  background-color: blanchedalmond;
+} */
+
+body {
+  background: linear-gradient(to bottom, pink, red);
+  color: white; /* Adjust text color if needed */
+}
+
+.navbar{
+  /* border: 2px solid green; */
+  background: linear-gradient(45deg, blanchedalmond, white);
+
+}
+
+/* Base styles for navbar items */
+.navbar .nav-link {
+  color: #333;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Change color on hover */
+.navbar .nav-link:hover {
+  color: #007bff; /* You can change this color */
+}
+
+/* Stylish underline effect on hover */
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #007bff;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+/* Scale the underline effect on hover */
+.navbar .nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+
+.button{
+  /* background: linear-gradient(45deg, red, black); */
+  background-color:  #ffdab9;
+  color: #8b4513;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background-color: antiquewhite;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 20px;
+  background: linear-gradient(to bottom, pink, red);
+  border-radius: 8px;
+}
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+  .content-section {
+    flex-direction: row;
+  }
+}
+
+.text-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
