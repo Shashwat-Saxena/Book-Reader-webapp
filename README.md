@@ -35,4 +35,4 @@ This application allows users to explore and read books with a clean and user-fr
 1. Clone the repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/Shashwat-Saxena/Book-Reader-webapp.git
